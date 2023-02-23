@@ -160,3 +160,6 @@ fs.writeFileSync(
   './documentation/tableResult.html',
   pageTemplate.replace('{CONTENT}', tables)
 );
+
+// Trnslate: Global Trade Item Number (GTIN). These identifiers include UPC (in North America), EAN (in Europe), JAN (in Japan), and ISBN (for books).
+// Trnslate: Código de barras de 13 dígitos que identifica un producto en el comercio mundial.

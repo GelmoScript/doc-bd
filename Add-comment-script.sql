@@ -250,7 +250,7 @@ exec sp_addextendedproperty 'MS_Description', 'Campo Identity',
 GO
 
 exec sp_addextendedproperty 'MS_Description', 'Título', 
-'SCHEMA', 'dbo', 'TABLE', 'Notification', 'COLUMN', 'IsRequired'
+'SCHEMA', 'dbo', 'TABLE', 'Notification', 'COLUMN', 'Title'
 
 GO
 
@@ -1410,7 +1410,7 @@ exec sp_addextendedproperty 'MS_Description', 'Campo para asignar algún color',
 GO
 
 exec sp_addextendedproperty 'MS_Description', 'Cuerpo del mensaje', 
-'SCHEMA', 'dbo', 'TABLE', 'SLA', 'COLUMN', 'Description'
+'SCHEMA', 'dbo', 'TABLE', 'SLA', 'COLUMN', 'Body'
 
 GO
 
@@ -2474,12 +2474,12 @@ exec sp_addextendedproperty 'MS_Description', 'Cantidad de usos permitidos de un
 
 GO
 
-exec sp_addextendedproperty 'MS_Description', 'Cantidad máxima del producto al que va a ser descontado. Usado con los tipos de descuento 'Asignado a productos' o 'Asignado a descuentos'', 
+exec sp_addextendedproperty 'MS_Description', 'Cantidad máxima del producto al que va a ser descontado. Usado con los tipos de descuento "Asignado a productos" o "Asignado a descuentos"', 
 'SCHEMA', 'dbo', 'TABLE', 'Discount', 'COLUMN', 'MaximumDiscountedQuantity'
 
 GO
 
-exec sp_addextendedproperty 'MS_Description', 'Indica si el descuento aplica a subcategorías. Utilizado para el tipo de descuento 'Aplicado a Categorías'', 
+exec sp_addextendedproperty 'MS_Description', 'Indica si el descuento aplica a subcategorías. Utilizado para el tipo de descuento "Aplicado a Categorías"', 
 'SCHEMA', 'dbo', 'TABLE', 'Discount', 'COLUMN', 'AppliedToSubCategories'
 
 GO
@@ -3005,12 +3005,12 @@ exec sp_addextendedproperty 'MS_Description', 'Campo que indica la contraseña d
 GO
 
 exec sp_addextendedproperty 'MS_Description', 'Título', 
-'SCHEMA', 'dbo', 'TABLE', 'Topic', 'COLUMN', 'IsRequired'
+'SCHEMA', 'dbo', 'TABLE', 'Topic', 'COLUMN', 'Title'
 
 GO
 
 exec sp_addextendedproperty 'MS_Description', 'Cuerpo del mensaje', 
-'SCHEMA', 'dbo', 'TABLE', 'Topic', 'COLUMN', 'Description'
+'SCHEMA', 'dbo', 'TABLE', 'Topic', 'COLUMN', 'Body'
 
 GO
 
@@ -5105,7 +5105,7 @@ exec sp_addextendedproperty 'MS_Description', 'Indica si el registro está aprob
 GO
 
 exec sp_addextendedproperty 'MS_Description', 'Título', 
-'SCHEMA', 'dbo', 'TABLE', 'ProductReview', 'COLUMN', 'IsRequired'
+'SCHEMA', 'dbo', 'TABLE', 'ProductReview', 'COLUMN', 'Title'
 
 GO
 
@@ -5950,7 +5950,7 @@ exec sp_addextendedproperty 'MS_Description', 'Id de la prioridad relacionada co
 GO
 
 exec sp_addextendedproperty 'MS_Description', 'Cuerpo del mensaje', 
-'SCHEMA', 'dbo', 'TABLE', 'QueuedEmail', 'COLUMN', 'Description'
+'SCHEMA', 'dbo', 'TABLE', 'QueuedEmail', 'COLUMN', 'Body'
 
 GO
 
@@ -6035,12 +6035,12 @@ exec sp_addextendedproperty 'MS_Description', 'Campo Identity',
 GO
 
 exec sp_addextendedproperty 'MS_Description', 'Título', 
-'SCHEMA', 'dbo', 'TABLE', 'BlogPost', 'COLUMN', 'IsRequired'
+'SCHEMA', 'dbo', 'TABLE', 'BlogPost', 'COLUMN', 'Title'
 
 GO
 
 exec sp_addextendedproperty 'MS_Description', 'Cuerpo del mensaje', 
-'SCHEMA', 'dbo', 'TABLE', 'BlogPost', 'COLUMN', 'Description'
+'SCHEMA', 'dbo', 'TABLE', 'BlogPost', 'COLUMN', 'Body'
 
 GO
 
@@ -6490,7 +6490,7 @@ exec sp_addextendedproperty 'MS_Description', 'Asunto del correo',
 GO
 
 exec sp_addextendedproperty 'MS_Description', 'Cuerpo del mensaje', 
-'SCHEMA', 'dbo', 'TABLE', 'Campaign', 'COLUMN', 'Description'
+'SCHEMA', 'dbo', 'TABLE', 'Campaign', 'COLUMN', 'Body'
 
 GO
 
@@ -6885,7 +6885,7 @@ exec sp_addextendedproperty 'MS_Description', 'Campo para almacenar el Id de la 
 GO
 
 exec sp_addextendedproperty 'MS_Description', 'Cuerpo del mensaje', 
-'SCHEMA', 'dbo', 'TABLE', 'MessageTemplate', 'COLUMN', 'Description'
+'SCHEMA', 'dbo', 'TABLE', 'MessageTemplate', 'COLUMN', 'Body'
 
 GO
 
@@ -7230,7 +7230,7 @@ exec sp_addextendedproperty 'MS_Description', 'Campo Identity',
 GO
 
 exec sp_addextendedproperty 'MS_Description', 'Título', 
-'SCHEMA', 'dbo', 'TABLE', 'News', 'COLUMN', 'IsRequired'
+'SCHEMA', 'dbo', 'TABLE', 'News', 'COLUMN', 'Title'
 
 GO
 
